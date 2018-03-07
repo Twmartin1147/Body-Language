@@ -1,6 +1,12 @@
 {
   "name": "BODY-LANGUAGE",
   "version": "0.0.0",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -22,4 +28,5 @@
     "serve-favicon": "~2.4.5",
     "watson-developer-cloud": "^3.0.7"
   }
+  
 }

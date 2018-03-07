@@ -1,7 +1,20 @@
 import login from './login';
 import socialMedia from './socialMedia';
 import logo from  '../logo/logo';
-import header from './header.css'
+import header from './header.css';
+import React from 'react'
+class Header extends React.Component {
+    render() {
+        return (
+            <div>
+
+            </div>
+        );
+    }
+
+    // ReactDOM.render(Header, document.getElementById('root'));
+}
 
 
-export header
+
+// export Header

@@ -4,7 +4,7 @@ import './App.css';
 import header from './header/header';
 import footer from './footer/footer';
 import chatBox from './chatBox/chatBox';
-import mainPage from './main/mainPage';
+import MainPage from './main/mainPage';
 import sideBar from './sidebar/sideBar';
 
 
@@ -22,6 +22,7 @@ class App extends Component {
       </div>
     );
   }
+  // ReactDOM.render(App, document.getElementById('root'));
 }
 
 export default App;
