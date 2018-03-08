@@ -1,4 +1,4 @@
-import api
-import textInput
+import api from './api'
+import textInput from './textInput'
 
-export textTranslation
+// export {TextTranslation}
