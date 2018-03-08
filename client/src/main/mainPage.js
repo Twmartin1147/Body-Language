@@ -1,13 +1,15 @@
-import TextInput from './textInput'
-import TextReturn from './textReturn'
-import textTranslation from './textTranslation'
-import logo from '../logo/logo'
-import React from 'react'
+import {TextInput} from './textInput'
+import {TextReturn} from './textReturn'
+import {textTranslation} from './textTranslation';
+import {logo} from '../logo/logo';
+import React from 'react';
 
 class MainPage extends React.Component {
     render() {
         return (
+            <div>
                 <TextInput />
+            </div> 
         );
     }
 
@@ -15,4 +17,4 @@ class MainPage extends React.Component {
 }
     
 
-export {MainPage} 
+export default {MainPage} 

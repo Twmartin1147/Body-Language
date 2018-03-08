@@ -1,28 +1,34 @@
-import React, { Component } from 'react';
-import logo from './SmallLogo.jpg';
+import React, {Component} from 'react';
+import {logo} from './SmallLogo.jpg';
 import './App.css';
-import header from './header/header';
-import footer from './footer/footer';
-import chatBox from './chatBox/chatBox';
+import {header} from './header/header';
+import {footer} from './footer/footer';
+import {chatBox} from './chatBox/chatBox';
 import MainPage from './main/mainPage';
-import sideBar from './sidebar/sideBar';
+import {sideBar} from './sidebar/sideBar'; 
 
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+        <header className="second">
+          <img src={logo} className="third" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
   // ReactDOM.render(App, document.getElementById('root'));
 }
 
-export default App;
+
+export class UserInput {
+  render() {
+    return (
+  <body>
+    <MainPage />
+  </body>
+    );
+  }
+}
