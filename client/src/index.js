@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App, {UserInput} from './App.js';
+import App, {InputReturn} from './App.js';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
