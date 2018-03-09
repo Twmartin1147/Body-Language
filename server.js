@@ -9,12 +9,13 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
 var toneAnalyzer = new ToneAnalyzerV3({
-  username: "a024676d-1867-42c5-9fac-5908cc52cf02",
-  password: "JEK6jBlRLqrN",
-  version_date: "2016-05-19",
-  // url: 'https://gateway.watsonplatform.net/tone-analyzer/api/'
+  // If unspecified here, the TONE_ANALYZER_USERNAME and TONE_ANALYZER_PASSWORD environment properties will be checked
+  // After that, the SDK will fall back to the bluemix-provided VCAP_SERVICES environment property
+  username: '<a024676d-1867-42c5-9fac-5908cc52cf02>',
+  password: '<JEK6jBlRLqrN>',
+  version_date: '2017-09-21'
+});
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
