@@ -3,7 +3,7 @@ import socialMedia from './socialMedia';
 import logo from  '../logo/logo';
 import header from './header.css';
 import React from 'react'
-class Header extends React.Component {
+ export class Header extends React.Component {
     render() {
         return (
             <div>
@@ -14,7 +14,3 @@ class Header extends React.Component {
 
     // ReactDOM.render(Header, document.getElementById('root'));
 }
-
-
-
-// export Header
