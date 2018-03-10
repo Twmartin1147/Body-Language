@@ -7,9 +7,6 @@ import './App.css';
 
 injectTapEventPlugin();
 
-
-
-// import header from './header/login';
 // import footer from './footer/footer';
 // import chatBox from './chatBox/chatBox';
 // import mainPage from './main/mainPage';
