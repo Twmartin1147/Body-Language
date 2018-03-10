@@ -1,46 +1,45 @@
-<<<<<<< HEAD
-import React, { Component } from 'react';
-import logo from './SmallLogo.jpg';
+// import React, { Component } from 'react';
+// import logo from './SmallLogo.jpg';
 
-import injectTapEventPlugin from 'react-tap-event-plugin';
-import Loginscreen from './header/Loginscreen';
-import './App.css';
+// import injectTapEventPlugin from 'react-tap-event-plugin';
+// import Loginscreen from './header/Loginscreen';
+// import './App.css';
 
-injectTapEventPlugin();
+// injectTapEventPlugin();
 
-// import footer from './footer/footer';
-// import chatBox from './chatBox/chatBox';
-// import mainPage from './main/mainPage';
-// import sideBar from './sidebar/sideBar';
+// // import footer from './footer/footer';
+// // import chatBox from './chatBox/chatBox';
+// // import mainPage from './main/mainPage';
+// // import sideBar from './sidebar/sideBar';
 
 
-class App extends Component {
-  constructor(props){
-    super(props);
-    this.state={
-      loginPage:[],
-      uploadScreen:[]
-    }
-  }
-  componentWillMount(){
-    var loginPage =[];
-    loginPage.push(<Loginscreen parentContext={this}/>);
-    this.setState({
-                  loginPage:loginPage
-                    })
-  }
-  render() {
-    return (
-      <div className="App">
-        {this.state.loginPage}
-        {this.state.uploadScreen}
-      </div>
-    );
-  }
-}
-const style = {
-  margin: 15,
-};
+// class App extends Component {
+//   constructor(props){
+//     super(props);
+//     this.state={
+//       loginPage:[],
+//       uploadScreen:[]
+//     }
+//   }
+//   componentWillMount(){
+//     var loginPage =[];
+//     loginPage.push(<Loginscreen parentContext={this}/>);
+//     this.setState({
+//                   loginPage:loginPage
+//                     })
+//   }
+//   render() {
+//     return (
+//       <div className="App">
+//         {this.state.loginPage}
+//         {this.state.uploadScreen}
+//       </div>
+//     );
+//   }
+// }
+// const style = {
+//   margin: 15,
+// };
 
 // class App extends Component {
 //   render() {
@@ -58,8 +57,6 @@ const style = {
 //   }
 // }
 
-export default App;
-=======
 import React, {Component} from 'react';
 import {logo} from './SmallLogo.jpg';
 import './App.css';
@@ -70,7 +67,7 @@ import MainPage, {Return} from './main/mainPage';
 import {sideBar} from './sidebar/sideBar'; 
 
 
-export default class App extends Component {
+export class App extends Component {
   constructor(props) {
     super(props);
 
@@ -98,4 +95,5 @@ export default class App extends Component {
   }
   // ReactDOM.render(App, document.getElementById('root'));
 }
->>>>>>> a788998ecc8efe6343b9c2979e5b19f7302fa02c
+
+export default App;
