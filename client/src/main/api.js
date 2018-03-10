@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 // // var express = require('express')
 // // // import React from 'react';
 
@@ -78,7 +76,6 @@
 // //     }
 
 
->>>>>>> ef4609c3181892f5febfd6312c533235a08d157c
 
 // var ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3');
 // var watsonRes = {};
@@ -139,11 +136,7 @@
 
 //             console.log(toneRes[toneScore.indexOf(result)])
 
-<<<<<<< HEAD
-//             var watEmo = toneRes[toneScore.indexOf(result)]
-=======
 //             var watEmo = toneRes[toneScore.indexOf(result)
->>>>>>> ef4609c3181892f5febfd6312c533235a08d157c
 
 //         return watEmo;
 
@@ -161,9 +154,4 @@
 
 // module.export = ToneResults;
 
-<<<<<<< HEAD
 // // export api
-
-=======
-// // export api
->>>>>>> ef4609c3181892f5febfd6312c533235a08d157c
