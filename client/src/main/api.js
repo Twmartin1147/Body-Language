@@ -1,79 +1,79 @@
-// var express = require('express')
-// // import React from 'react';
+// // var express = require('express')
+// // // import React from 'react';
 
-// class ApliCall extends React.Component {
-//     constructor() {
-//         super();
-//             this.state = { 
-//                 tone: [] }
-//     }
-// }
+// // class ApliCall extends React.Component {
+// //     constructor() {
+// //         super();
+// //             this.state = { 
+// //                 tone: [] }
+// //     }
+// // }
 
-// componentDidMount = () => {
-//     fetch('https://gateway.watsonplatform.net/tone-analyzer/api/')
-//     .then(results =>{
-//         return result.tone(
-//             tone_input, "This is awesome",
-//             content_type, 'text/plain'
-//         )
-//     }).then(data => {
-//         var watsonRes = {};
-//         var watsonScore = {};
-//         var toneScore = [];
-//         var toneRes = [];
-//         var numTones;
-//         if (err) {
-//             console.log(err);
-//         } else {
+// // componentDidMount = () => {
+// //     fetch('https://gateway.watsonplatform.net/tone-analyzer/api/')
+// //     .then(results =>{
+// //         return result.tone(
+// //             tone_input, "This is awesome",
+// //             content_type, 'text/plain'
+// //         )
+// //     }).then(data => {
+// //         var watsonRes = {};
+// //         var watsonScore = {};
+// //         var toneScore = [];
+// //         var toneRes = [];
+// //         var numTones;
+// //         if (err) {
+// //             console.log(err);
+// //         } else {
 
-//             numTones = JSON.stringify(tone.document_tone.tone_categories[0].tones[0].tone_name.length, null, 2);
+// //             numTones = JSON.stringify(tone.document_tone.tone_categories[0].tones[0].tone_name.length, null, 2);
 
-//             for (var i = 0; i < numTones; i++) {
+// //             for (var i = 0; i < numTones; i++) {
 
-//                 watsonRes = JSON.stringify(tone.document_tone.tone_categories[0].tones[i].tone_name, null, 2);
+// //                 watsonRes = JSON.stringify(tone.document_tone.tone_categories[0].tones[i].tone_name, null, 2);
 
-//                 toneRes.push(watsonRes);
+// //                 toneRes.push(watsonRes);
 
-//             }
+// //             }
 
-//             i = 0;
+// //             i = 0;
 
-//             for (i = 0; i < numTones; i++) {
+// //             for (i = 0; i < numTones; i++) {
 
-//                 watsonScore = parseFloat(tone.document_tone.tone_categories[0].tones[i].score);
+// //                 watsonScore = parseFloat(tone.document_tone.tone_categories[0].tones[i].score);
 
-//                 toneScore.push(watsonScore);
+// //                 toneScore.push(watsonScore);
 
-//             }
-
-
-//             var result = Math.max(...toneScore);
+// //             }
 
 
+// //             var result = Math.max(...toneScore);
 
-//             console.log(result);
 
-//             console.log(toneRes);
 
-//             console.log(toneScore);
+// //             console.log(result);
 
-//             console.log(toneScore.indexOf(result))
+// //             console.log(toneRes);
 
-//             console.log(toneRes[toneScore.indexOf(result)])
+// //             console.log(toneScore);
 
-//             var watEmo = toneRes[toneScore.indexOf(result)]
+// //             console.log(toneScore.indexOf(result))
 
-//         return watEmo;
-//     };
-// },
+// //             console.log(toneRes[toneScore.indexOf(result)])
 
-//     render() {
-//         return (
-//             <div>
+// //             var watEmo = toneRes[toneScore.indexOf(result)]
 
-//             </div>
-//         )
-//     }
+// //         return watEmo;
+// //     };
+// // },
+
+// //     render() {
+// //         return (
+// //             <div>
+
+// //             </div>
+// //         )
+// //     }
 
 
 
