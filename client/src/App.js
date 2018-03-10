@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './SmallLogo.jpg';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
-import Loginscreen from './header/Login/Loginscreen';
+import Loginscreen from './header/Loginscreen';
 import './App.css';
 
 injectTapEventPlugin();
