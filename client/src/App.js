@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
 import logo from './SmallLogo.jpg';
 
@@ -58,3 +59,43 @@ const style = {
 // }
 
 export default App;
+=======
+import React, {Component} from 'react';
+import {logo} from './SmallLogo.jpg';
+import './App.css';
+import {Header} from './header/header';
+import {footer} from './footer/footer';
+import {chatBox} from './chatBox/chatBox';
+import MainPage, {Return} from './main/mainPage';
+import {sideBar} from './sidebar/sideBar'; 
+
+
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+
+  }
+  render() {
+    return (
+      
+            
+              
+           
+            <div>
+            <div>
+                <Header />
+            </div>    
+              <div>
+                <MainPage />
+              </div>
+            </div>
+      
+      
+      
+        
+      
+    );
+  }
+  // ReactDOM.render(App, document.getElementById('root'));
+}
+>>>>>>> a788998ecc8efe6343b9c2979e5b19f7302fa02c

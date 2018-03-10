@@ -1,3 +1,16 @@
-import textInput
+import React from 'react';
+import {api} from './api.js';
 
-export textReturn
+
+class TextReturn extends React.Component {
+    render() {
+        return (
+            <div className="container">
+				<input type="text" className="" id="inputReturn"/> 
+            </div>
+                );
+    }
+}
+
+
+export { TextReturn }
