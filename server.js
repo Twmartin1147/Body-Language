@@ -30,18 +30,18 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, './')));
 
 app.use('/', index);
-  app.post('/api/tone', function (req, res, next) {
-    toneAnalyzer.tone(req.body, function (err, data) {
-      if (err) {
-        return next(err);
-      }
-      return res.json(data);
-    });
-  });
+  // app.post('/api/tone', function (req, res, next) {
+  //   toneAnalyzer.tone(req.body, function (err, data) {
+  //     if (err) {
+  //       return next(err);
+  //     }
+  //     return res.json(data);
+  //   });
+  // });
 
-  app.get('/api/tone', function() {
-    
-  })
+  // app.get('/api/tone', function() {
+
+  // })
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
