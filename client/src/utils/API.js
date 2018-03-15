@@ -5,5 +5,8 @@ export default {
         return axios.get(`/api/tone?query=${search}`).then(
             (res) => { console.log(res)}
         )
+    },
+    userInput: function(text) {
+        return axios.post('/api/tone')
     }
 }

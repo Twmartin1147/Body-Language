@@ -11,12 +11,13 @@ import API from "../utils/API";
 
 
 class TextInput extends React.Component {
+    // state = {
+    //     text: {}
+    // }
     componentDidMount() {
-        var params = {
-            'tone_input': document.getElementById("userText").value,
-            'content_type': 'application/json'
-        };
-        API.getTone(params)
+        console.log(this.props.)
+        // API.userInput(this.props.)
+        //     .then(res => this.setState({ text: document.getElementById("userText").value }))
     }
 
     render() {
@@ -38,18 +39,10 @@ class TextInput extends React.Component {
                     </form>
                     
                         <button id="emotionCheck" onClick={
-                            function thisText() {
-                            <Router>
-                                <Switch>
-                                {document.getElementById("inputReturn").value = document.getElementById("userText").value}
-                                <Route exact path="/tone_analyzer/tone/tone_input" 
-                                
-                                 />
-                                </Switch>
-                            </Router>
+                    console.log(this.props.params)
                        }
                             
-                        }
+                        
                         > Emotion Check </button>
                    
                 
