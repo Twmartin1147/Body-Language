@@ -8,6 +8,7 @@ import MainPage, {Return} from './main/mainPage';
 import {sideBar} from './sidebar/sideBar'; 
 
 
+
 export default class App extends Component {
   constructor(props) {
     super(props);

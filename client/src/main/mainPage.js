@@ -1,4 +1,4 @@
-import {TextInput} from './textInput';
+import TextInput from './textInput';
 import {TextReturn} from './textReturn';
 import {textTranslation} from './textTranslation';
 import {logo} from '../logo/logo';

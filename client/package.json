@@ -1,8 +1,10 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "proxy": "http://localhost:3001/",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "breakpoint-sass": "^2.7.1",
     "modular-scale": "^4.4.1",
     "modularscale-sass": "^3.0.5",
