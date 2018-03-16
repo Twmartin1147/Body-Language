@@ -1,4 +1,6 @@
 // import React, { Component } from 'react';
+
+// import Header from './header/header';
 // import logo from './SmallLogo.jpg';
 
 // import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -57,42 +59,45 @@
 //   }
 // }
 
-export default App;
-import React, {Component} from 'react';
+
+import React, { Component } from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {logo} from './SmallLogo.jpg';
 import './App.css';
-import {Header} from './header/header';
-import {footer} from './footer/footer';
-import {chatBox} from './chatBox/chatBox';
-import MainPage, {Return} from './main/mainPage';
-import {sideBar} from './sidebar/sideBar'; 
+import { Header } from './header/header';
+// import {footer} from './footer/footer';
+// import {chatBox} from './chatBox/chatBox';
+import MainPage from './main/mainPage';
+import SideBar from './sidebar/sideBar'; 
 
 
-export default class App extends Component {
+export class App extends Component {
   constructor(props) {
     super(props);
 
   }
   render() {
     return (
+      <div>
       
-            
-              
+        <MuiThemeProvider>
+          <Header />
+          </MuiThemeProvider>
+          <MuiThemeProvider>
+         <SideBar/>
+        </MuiThemeProvider>
+          <MainPage/>
            
-            <div>
-            <div>
-                <Header />
-            </div>    
-              <div>
-                <MainPage />
-              </div>
-            </div>
-      
-      
-      
-        
-      
+</div>
+              
+    
+
+
+
+
+
     );
   }
   // ReactDOM.render(App, document.getElementById('root'));
 }
+export default App;

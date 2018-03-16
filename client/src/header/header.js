@@ -1,25 +1,38 @@
-import login from './Login';
-import socialMedia from './socialMedia';
-import logo from  '../logo/logo';
-import header from './header.css';
-<<<<<<< HEAD
+
+// import socialMedia from './socialMedia';
+// import {logo} from  '../logo/logo';
+// import {header} from './header.css';
+import React from 'react';
+import RaisedButton from 'material-ui/RaisedButton';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Loginscreen from './Loginscreen';
+// Using a button in the header for the login which when clicked should render the login screen.
 
 
-
-
-
-
-=======
-import React from 'react'
  export class Header extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {isToggleOn: true};
+        this.handleClick = this.handleClick.bind(this);
+        // componentWillMount(){}
+    }
+    
     render() {
         return (
-            <div>
->>>>>>> a788998ecc8efe6343b9c2979e5b19f7302fa02c
-
-            </div>
+            <MuiThemeProvider>
+        <RaisedButton label="Login" primary={true} style={style} onClick={(event) => this.handleClick(event)} />
+        </MuiThemeProvider>
         );
     }
+    handleClick(event) {
+        this.setState(prevState => ({
+          isToggleOn: !prevState.isToggleOn
+        }));
+        <Loginscreen/>
+      }
 
     // ReactDOM.render(Header, document.getElementById('root'));
 }
+const style = {
+    margin: 15,
+   };

@@ -2,7 +2,9 @@ import {TextInput} from './textInput';
 import {TextReturn} from './textReturn';
 import {textTranslation} from './textTranslation';
 import {logo} from '../logo/logo';
+
 import React from 'react';
+
 
 export default class MainPage extends React.Component {
     render() {
