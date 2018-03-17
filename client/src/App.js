@@ -64,7 +64,8 @@ import {Header} from './header/header';
 import {footer} from './footer/footer';
 import {chatBox} from './chatBox/chatBox';
 import MainPage, {Return} from './main/mainPage';
-import {sideBar} from './sidebar/sideBar'; 
+import {sideBar} from './sidebar/sideBar';
+import Layout from './Layouts' 
 
 
 export class App extends Component {
@@ -84,6 +85,9 @@ export class App extends Component {
             </div>    
               <div>
                 <MainPage />
+              </div>
+              <div>
+                <Layout />
               </div>
             </div>
       

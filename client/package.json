@@ -3,31 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-
     "axios": "^0.18.0",
-    "material-ui": "^0.20.0",
-
     "babel-cli": "^6.26.0",
-
     "breakpoint-sass": "^2.7.1",
+    "material-ui": "^0.20.0",
     "modular-scale": "^4.4.1",
     "modularscale-sass": "^3.0.5",
     "normalize": "^0.3.1",
     "prismjs": "^1.12.2",
     "prop-types": "^15.6.1",
     "radium": "^0.22.1",
-
     "react": "^16.2.0",
     "react-chat-widget": "^2.1.2",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
-
     "react-tap-event-plugin": "^3.0.2",
-
+    "socket.io": "^2.0.4",
+    "uuid": "^3.2.1",
     "watson-developer-cloud": "^3.0.7",
     "watson-react-components": "^0.6.16",
     "watson-ui-components": "^0.6.0"
-
   },
   "scripts": {
     "start": "react-scripts start",
