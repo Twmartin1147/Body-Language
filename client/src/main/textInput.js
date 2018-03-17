@@ -4,6 +4,7 @@ import watson from 'watson-developer-cloud';
 // import { Jumbotron } from 'watson-react-components/dist/components';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import API from "../utils/API";
+import textReturn from './mainPageCSS/textReturn.css'
 
 
 

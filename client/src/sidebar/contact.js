@@ -1,16 +1,13 @@
-// import React from 'react';
+import React from 'react'
+class Contact extends React.Component {
+    render() {
+        return(
+            <div>
+                <h6>Body Language Team</h6>
+                <p>Four students who had an idea, that was more complicated than we thought.</p>
+            </div>    
+        )
+    }
+}
 
-// class ContactUs extends React.Component {
-//     render()
-//         return(
-           
-//                 <div>
-//                     <p>
-//                     The BodyLanguage Team
-//                     <img src="./img1"/><img/>
-//                     </p>
-//                 </div>
-        
-//         )
-
-// }
+export {Contact}

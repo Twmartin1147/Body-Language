@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 5px,5px,5px;
+    background-color: rgb(173, 184, 192);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* h6 {
+    float: left;
+    position: absolute;
+    right: 0;
+}
+
+.logo-container {
+    float: left;
+}
+
+h3 {
+    position: absolute;
+    right: 40%;
+} */
