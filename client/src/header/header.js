@@ -50,13 +50,13 @@ import Loginscreen from './Loginscreen';
 }
 function LoginScreen(props) {
     return 
-    <div>
+    <form>
     {LoginScreen}
-    </div>
+    </form>
   }
   
   function GuestGreeting(props) {
-    return <h1>Please sign up.</h1>;
+    return <h2>Please sign up.</h2>;
   }
         function LoginButton(props) {
             return (
@@ -68,7 +68,7 @@ function LoginScreen(props) {
           function Greeting(props) {
             const isLoggedIn = props.isLoggedIn;
             if (isLoggedIn) {
-              return <LoginScreen />;
+              return LoginScreen;
             }
             return <GuestGreeting />;
           }
