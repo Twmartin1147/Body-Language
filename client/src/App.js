@@ -10,16 +10,10 @@ import {sideBar} from './sidebar/sideBar';
 
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
+  
 
-  }
   render() {
-    return (
-      
-            
-              
-           
+    return (    
             <div>
             <div>
                 <Header />
@@ -28,11 +22,6 @@ export default class App extends Component {
                 <MainPage />
               </div>
             </div>
-      
-      
-      
-        
-      
     );
   }
   // ReactDOM.render(App, document.getElementById('root'));

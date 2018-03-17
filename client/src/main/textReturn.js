@@ -1,12 +1,13 @@
 import React from 'react';
-import {api} from './api.js';
+import TextInput from './textInput'
+import textReturn from './mainPageCSS/textReturn.css'
 
 
 class TextReturn extends React.Component {
     render() {
         return (
             <div className="container">
-				<input type="text" className="" id="inputReturn"/> 
+				<textarea type="text"  id="inputReturn"/> 
             </div>
                 );
     }

@@ -6,7 +6,8 @@ export default {
             (res) => { console.log(res)}
         )
     },
-    userInput: function(text) {
-        return axios.post('/api/tone')
+    userInput: function(userInput) {
+        console.log(userInput)
+        return axios.post('/api/tone', {input: userInput})
     }
 }

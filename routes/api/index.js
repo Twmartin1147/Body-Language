@@ -1,8 +1,12 @@
-const router = require("express").Router();
-const toneRoutes = require("./tone");
+const express = require("express");
+const router = express.Router();
+const toneController = require("../../controllers/toneController")
 
 
-// Book routes
-router.use("/tone", toneRoutes);
+
+
+// Tone routes
+//router.use("/tone", toneRoutes);
+router.post("/api/tone", toneController.post )
 
 module.exports = router;
